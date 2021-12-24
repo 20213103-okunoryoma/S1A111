@@ -52,3 +52,13 @@ em {
 /*----------------------------
 この下に、CSSの指定を記述していきましょう。
 ----------------------------*/
+body {
+  background: url(wood.jpg) #504643 left top repeat;
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex
+}
+li{flex: 1 1 20%;}

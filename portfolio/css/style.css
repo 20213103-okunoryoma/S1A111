@@ -9,7 +9,7 @@ body {
 a {
   transition: opacity .3s;
   text-decoration: none;
-  color: #1ca9e3;
+  color: #a9d7e9;
 }
 
 img {
@@ -44,7 +44,7 @@ li {
 }
 
 .section:nth-of-type(odd) {
-  background-color: #f7f7f7;
+  background-color: #e68a73;/*worksの背景色*/
 }
 
 .inner {
@@ -76,9 +76,9 @@ li {
 .header {
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 10;
   width: 100%;
-  background-color: #fff;
+  background-color: #e68a73; /*ヘッダーの色*/
   box-shadow: 0 5px 10px -6px rgba(0,0,0,.1);
 }
 
@@ -186,6 +186,9 @@ li {
 .main-visual-text p:not(:last-child) {
   margin-bottom: 30px;
 }
+.main-visual-logo{
+  width: 200px;
+}
 
 /*--------------------------------
  Works
@@ -271,12 +274,12 @@ li {
   max-width: 180px;
   text-align: center;
   font-size: 16px;
-  color: #9ec34b;
+  color: #2a360e;
   text-decoration: none;
   font-weight: bold;
   padding: 8px 16px;
   position: relative;
-  border: 2px solid #9ec34b;
+  border: 2px solid #2a360e;
   transition: .4s;
 }
 
@@ -498,6 +501,7 @@ li {
   .title {
     font-size: 26px;
     margin-bottom: 20px;
+
   }
 
   /* レイアウト */
@@ -627,4 +631,4 @@ li {
   0%  {transform: rotate(0);}
   100%  {transform: rotate(360deg);}
 }
-  
+
